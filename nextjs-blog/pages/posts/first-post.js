@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import Layout from '../../components/layout';
+import Image from 'next/image';
  
 export default function FirstPost() {
   return (
@@ -12,6 +13,7 @@ export default function FirstPost() {
       <h2>
         <Link href="/">← Back to home</Link>
       </h2>
+      <img src="/images/Furina.jpg" alt="Your Name" />
     </Layout>
   );
 }

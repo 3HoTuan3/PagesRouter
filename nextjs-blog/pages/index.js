@@ -11,6 +11,12 @@ export default function Home() {
       </Head>
 
       <main>
+        <img 
+          src="/images/Furina.jpg" 
+          alt="Profile" 
+          width={200}  // Next.js tự động optimize ảnh
+          height={200}
+        />
         <h1 className={styles.title}>
           Read <Link href="/posts/first-post">this page!</Link>
         </h1>
